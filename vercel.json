@@ -7,12 +7,12 @@
     ],
     "routes": [
         {
-            "src": "/(.*)",
-            "dest": "/"
+            "src": "/api/auth",
+            "dest": "/routes/auth"
         },
         {
-            "src": "/api",
-            "dest": "/api"
+            "src": "/api/events",
+            "dest": "/routes/events"
         }
     ]
 }
